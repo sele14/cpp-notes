@@ -46,5 +46,18 @@
   - Objects are boxes that you can put a value of the object's type
     - E.g. => age [ 42 ] int
 
-##### Code Snippet 3: input / output
+- Code Snippet 3: input / output
+  - The first line is called a prompt; tries to prompt the user to do something; enter name
+
+-**Variables**: A named object with a specific type (int, string)
+  - The place where we store data is an object
+  - To access an object we need a name
+
+#### Some common types:
+- Also known as data types
+  - ```int``` for integers (39)
+  - ```double``` for floating-point numbers (3.5)
+  - ```char``` for individual characters "."
+  - ```string``` for character strings ("Hello")
+  - ```bool`` true/fals logical vals (true)
 

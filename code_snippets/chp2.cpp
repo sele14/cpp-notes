@@ -30,17 +30,3 @@ inline void keep_window_open() { char ch; cin>>ch; }
 
 //     return 0;
 // }
-
-
-/*
-Code snippet 3: Input/output
-    - This function takes a string input and outputs hello + string.
-*/
-int main()
-{
-    cout << "Enter your name: \n";
-    string first_name;
-    cin >> first_name;
-    cout << "Hello, " << first_name << ".\n";
-
-}
