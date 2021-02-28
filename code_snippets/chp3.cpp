@@ -36,6 +36,7 @@ int main()
         cout << "the first name is before the second, alphabetcally.\n";
     if (first > second)
             cout << "the first name is after the second, alphabetcally.\n";
+    return 0;
 }
 
 
