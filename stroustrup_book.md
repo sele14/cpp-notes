@@ -61,3 +61,11 @@
   - ```string``` for character strings ("Hello")
   - ```bool`` true/fals logical vals (true)
 
+#### Composite assignment Operators
+- Incrementing a variable (adding 1 to it) is so common that C++ has a special syntax for it:
+  - ```++ counter``` is equivalent to ```counter = counter + 1```
+    - Or in python: ```counter += counter```
+- Other variations:
+  - ```a += 7; // means a = a + 7```
+  - ```b -= 9; // means b = b - 9```
+  - ```c *= 2; // means c = c * 2```
