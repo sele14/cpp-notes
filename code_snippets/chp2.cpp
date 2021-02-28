@@ -23,10 +23,10 @@ inline void keep_window_open() { char ch; cin>>ch; }
 
 // Code snippet 2: Drill 1
 
-// int main()
-// {
-//     cout << "Hello programming!\n";
-//     cout << "Here we go!\n";
+int main()
+{
+    cout << "Hello programming!\n";
+    cout << "Here we go!\n";
 
-//     return 0;
-// }
+    return 0;
+}

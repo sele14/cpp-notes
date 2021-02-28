@@ -69,3 +69,19 @@
   - ```a += 7; // means a = a + 7```
   - ```b -= 9; // means b = b - 9```
   - ```c *= 2; // means c = c * 2```
+
+### Code snippet 6: Detect repeated words improved
+- Each time we see a word, we increase count ```++number_of_words```
+  - So first word = 1, second = 2, i.e. we keep track of the word "indecies"
+
+## Types and Objects
+- **Type**: a set of possible values and a set of operations (for an object)
+- **Object**: some memory that holds a value of a given type
+- **Value**: is a set of bits in memory interpreted according to a type
+- **Variable**: a named object
+- **Declaration** is a statement that gives a name to an object
+  - ```int num;```
+- **Definition**: Is a declaration that sets aside memory for an object
+  - ```int num = 5;```
+
+# Chapter 4: Computation

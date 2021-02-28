@@ -46,18 +46,37 @@ Code snippet 5: Detect repeated words
     - Prints "repeated word" if you enter two equal words after each other
 */
 
-int main()
-{
-    string previous = " "; // previous word, initialised
-    string current; // current workd
-    while (cin >> current) { // read a stream of words
-        if (previous == current) // check if word is same as last
-            cout << "repeated word:" << current << '\n';
-        previous = current;
-    }
-}
+// int main()
+// {
+//     string previous = " "; // previous word, initialised
+//     string current; // current workd
+//     while (cin >> current) { // read a stream of words
+//         if (previous == current) // check if word is same as last
+//             cout << "repeated word:" << current << '\n';
+//         previous = current;
+//     }
+// }
 
 /*
 Code snippet 6: Detect repeated words
-    - Will keep running until you ctrl+c out
+    - identify where the repeated word was
 */
+// int main()
+// {
+//     int number_of_words = 0;
+//     string previous = "";
+//     string current;
+//     while (cin>>current) {
+//         ++number_of_words; // n_o_w = n_o_w + 1
+//         if (previous == current)
+//             cout << "Word number " << number_of_words
+//             << " repeated: " << current << '\n';
+//         previous = current;
+//     }
+
+// }
+
+int main()
+{
+    return 0;
+}
