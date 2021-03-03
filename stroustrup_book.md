@@ -85,3 +85,16 @@
   - ```int num = 5;```
 
 # Chapter 4: Computation
+
+A computer program can be viewed as:
+- Input -> Code (data) -> Output
+
+### Two Ways to Divide a Big Computation:
+- **Abstraction**: Hide details that we don't need to use (implementation details) behind a convenient interface
+  - E.g. instead of implementing a sorting algorithm, use built in ```sort(a)``` for an array ```a```
+- **Divide and conquer**: Take a larger problem and divide it into several little ones.
+  - E.g. building a dictionary, separate it into reading data, sorting data, outputting data
+
+
+### Switch Statement:
+- Code snippet 8 uses switch statements to convert units of measurement

@@ -61,22 +61,17 @@ Code snippet 5: Detect repeated words
 Code snippet 6: Detect repeated words
     - identify where the repeated word was
 */
-// int main()
-// {
-//     int number_of_words = 0;
-//     string previous = "";
-//     string current;
-//     while (cin>>current) {
-//         ++number_of_words; // n_o_w = n_o_w + 1
-//         if (previous == current)
-//             cout << "Word number " << number_of_words
-//             << " repeated: " << current << '\n';
-//         previous = current;
-//     }
-
-// }
-
 int main()
 {
-    return 0;
+    int number_of_words = 0;
+    string previous = "";
+    string current;
+    while (cin>>current) {
+        ++number_of_words; // n_o_w = n_o_w + 1
+        if (previous == current)
+            cout << "Word number " << number_of_words
+            << " repeated: " << current << '\n';
+        previous = current;
+    }
+
 }
